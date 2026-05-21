@@ -3,107 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="imagenes/icono.png">
-    <link rel="stylesheet" href="style.css">
-    <title>My portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo/portafolio.png">
+    <title>KEVIN develope web</title>
 </head>
 <body>
     <header class="header">
-        <label for="menu" id="menu"><img src="imagenes/menu.png" alt="menu" class="menu"></label>
-        <nav class="header_nav" id="nav">
-            <ul class="header_lista">
-                <li class="header_item --home">
-                     <a href="#home"><span><img class="icono" src="imagenes/home.png" alt=""></span>
-                   home</a>
-                </li>
-                <li class="header_item">
-                    <a href="#project"><span><img class="icono" src="imagenes/project.png" alt=""></span>
-                    project</a>
-                </li>
-                <li class="header_item">
-                    <a href="#about"><span><img class="icono" src="imagenes/about.png" alt=""></span>
-                    about</a>
-                </li>
-                <li class="header_item">
-                    <a href="#contact"><span><img class="icono" src="imagenes/contact.png" alt=""></span>
-                    contact</a>
-                </li>
+        <div class="logo">
+            <h1>KEVIN DEVELOPER</h1>
+        </div>
+        <img src="logo/menu.png" alt="menu" class="menu">
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="item"><a href="#">opcion</a></li>
+                <li class="item"><a href="#">opcion</a></li>
+                <li class="item"><a href="#">opcion</a></li>
             </ul>
         </nav>
-        <h1>MY Portfolio</h1>
     </header>
-    <section class="section">
-        <div class="section_home" id="home">
-            <div class="p">
-                <p>Welcome to my portfolio</p>
-            </div>
-        </div>
-        <div class="section_project" id="project">
-            <h2 class="title-project">Project</h2>
-            <div class="contenedor_proyectos">
-                <div class="proyecto">
-                    <h2>Project 1</h2>
-                    <div class="project-informacion">
-                        <p>A page where I recommend essential HTML, CSS, and JavaScript courses, organized by level and designed for those who want to get started in web development. </p>
-                        <a href="https://valente-kevin.github.io/Mini-tinda/" target="_blank">View project</a>
+    <main class="main">
+        <div class="container-sections">
+            <section class="section_specialties">
+                <div class="specialties-info">
+                    <h2>Me especialidad</h2>
+                    <div class="container_info">
+                        <p class="specialties">Soy un desarrollador web especialisodo en la interactividad del ususario <strong>UI</strong>, creo y doy estilos a paginas webs, con un codigo ordenado y limpio,trabajo principalmente con HTML, CSS y JavaScript, lo que me permite construir sitios web rápidos, responsivos y bien estructurados. Cuido mucho los detalles visuales como colores, tipografía, animaciones y disposición de elementos para lograr un diseño profesional. Mi objetivo es no solo hacer que un sitio se vea bien,  sino     que     también sea cómodo de usar y cumpla su  propósito:   atraer,   comunicar y convertir.</p>
+                        <div class="container_logo">
+                            <div class="logos logo-html oculto">
+                                <img src="logo/html-5.jfif" alt="html">
+                            </div>
+                            <div class="logos logo-css oculto">
+                                <img src="logo/css-3.png" alt="css">
+                            </div>
+                            <div class="logos logo-js oculto">
+                                <img src="logo/javaScript.png" alt="java" class="js">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="proyecto">
-                    <h2>Project 2</h2>
-                    <div class="project-informacion">
-                        <p>Digital sales web platform project focused on the marketing of online courses, digital products and complementary services.</p>
-                        <a href="https://valente-kevin.github.io/Navidad-2025/" target="_blank">View project</a>
+            </section>
+            <section class="section_projects">
+                <h2>Mis proyectos</h2>
+                <div class="projects">
+                    <div class="container_project oculto">
+                        <div class="project-front">
+                            <div class="project-img">
+                                <img src="img-project/topCursos.png" alt="primer proyecto">
+                            </div>
+                            <div class="project-info">
+                                <span>Top Cusros</span>
+                                <p>Una plataforma diseñada para aprender desarrollo web desde cero. Aquí encontrarás cursos cuidadosamente seleccionados de HTML, CSS y JavaScript, organizados de forma práctica y fácil de seguir. Cada recomendación está pensada para ayudarte a avanzar paso a paso, desde los fundamentos hasta proyectos reales, permitiéndote desarrollar habilidades sólidas y aplicables en el mundo laboral.</p>
+                            </div>
+                        </div>
+                        <div class="project-back">
+                            <p>Esta página web fue creada con el objetivo de ayudar a personas que desean iniciarse en el desarrollo web. Muchas veces, quienes comienzan se sienten abrumados por la gran cantidad de cursos disponibles en internet y no saben por dónde empezar.</p>
+                            <p>La página fuen creada solo con <b>HTML Y CSS</b></p>
+                            <a href="https://valente-kevin.github.io/Mini-tinda/" target="_blank" class="view">ver</a>
+                        </div>
+                    </div>
+                    <div class="container_project oculto">
+                        <div class="project-front --project-2">
+                            <div class="project-img">
+                                <img src="img-project/Netflix.png" alt="primer proyecto">
+                            </div>
+                            <div class="project-info">
+                                <span>Netflix</span>
+                                <p>Este proyecto es una clonación de la interfaz de Netflix, desarrollada con el objetivo de practicar y mejorar mis habilidades en desarrollo front-end. La aplicación replica el diseño moderno y atractivo de la plataforma, incluyendo secciones como el banner principal</p>
+                            </div>
+                        </div>
+                        <div class="project-back">
+                            <p>Se implementó utilizando HTML, CSS y JavaScript, enfocándome en la estructura semántica, estilos responsivos. Este proyecto me permitió fortalecer mis conocimientos en diseño UI, maquetación y lógica básica de interacción, acercándome a la construcción de aplicaciones web más completas y profesionales.</p>
+                            <a href="https://valente-kevin.github.io/Netflix/" target="_blank" class="view">view</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-                <h2 class="title-project2">Internship projects</h2>
-            <div class="practica">
-                <div class="proyecto">
-                    <h2>Project</h2>
-                    <div class="project-informacion">
-                        <p>This practice project is the main interface of one of the world's most recognized websites, featuring a responsive design. Developed with HTML & CSS</p>
-                        <a href="https://valente-kevin.github.io/Netflix/" target="_blank">veiw</a>
-                    </div>
+            </section>
+        </div>
+
+        <section class="section_form">
+            <form action="https://usebasin.com/f/2e1b7d22ed72" method="post" class="form">
+                <div class="container_input">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
                 </div>
-            </div>
-        </div>
-        <div class="section_about" id="about">
-            <div class="section_informacion">
-                <h2 class="title-about">Hi, my name is <b>Kevin</b></h2>
-                <p>Hi! I'm Kevin, a web developer in training with experience creating modern and functional websites.
-                I specialize in HTML & CSS and enjoy transforming ideas into well-structured, fast, and visually appealing websites.
-                I like working with responsive designs, ensuring that every project looks great on computers, tablets, and phones. I also have knowledge of web optimization, code organization, and best practices to keep my projects clean and easy to understand.
-                I'm a curious person and am always learning new technologies to improve my skills. My goal is to continue growing as a developer and build projects that provide real value to people.</p>
-            </div>
-        </div>
-        <div class="section_contact" id="contact">
-            <b>Send message</b><br>
-            <a href="mailto:valentevladimir6@gmail.com" class="email">valentevladimir6@gmail.com</a>
-            <a href="https://wa.me/+593959238651" target="_blank" class="wtsp">WhatsApp</a>
-        </div>
-        <form action="https://formspree.io/f/xeezykgq" method="POST" class="for">
-            <div class="formulario">
-                <label for="nombre">Name <br>
-                    <input type="text" id="nombre" name="nombre" class="input" required>
-                </label>
-                <label for="apellido">last name<br>
-                    <input type="text" id="apellido" name="apellido" class="input">
-                </label>
-                <label for="email">Email <br>
-                    <input type="email" id="email" class="input" name="apellido">
-                </label>
-                </label>
-                <label for="mensage">message<br>
-                    <textarea name="mensage" id="mensage" class="mensage" rows="3" required maxlength="300"></textarea>
-                </label>
-                <input type="submit" class="enviar" value="emviar">
-            </div>
-        </form>
-    </section>
+                <div class="container_input">
+                    <label for="whatsApp">WhatsApp</label>
+                    <input type="tel" id="whatsApp" name="whatsAoo">
+                </div>
+                <div class="container_input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="container_input">
+                    <label>Servicios</label>
+                    <select name="servicios">
+                        <option value="servicio" class="option">Elige el servicio que necesites</option>
+                        <option value="portfolio" class="option">Realizar desde cero un portafolio profecional</option>
+                        <option value="mantenimiento" class="option">Realizar los mantenimientos necesarios en un sitio web</option>
+                        <option value="negocio" class="option">Realizar una paguina web para negocio (totalmente personalizable)</option>
+                        <option value="otros" class="option">Otros</option>
+                    </select>
+                </div>
+                <div class="container_input">
+                    <label for="msg">Mensage</label>
+                    <textarea name="" id="msg" rows="4"></textarea>
+                </div>
+                <div class="container_input">
+                    <input type="submit" class="enviar">
+                </div>
+            </form>
+        </section>
+    </main>
     <footer>
-      <p>© 2025 Kevin. All rights reserved.</p>
-      <p>Developed with HTML & CSS</p>
+        <strong>©Kevin Valente</strong>
+        <div class="container_contact">
+            <a href="https://wa.me/593959238651" class="netwoks_direction" target="_blank">
+                <img src="contactos/whatsApp.png" alt="whatsApp">
+                <b>WhatsApp</b>
+            </a>
+            <a href="https://instagram.com/ele__vladi__mir" class="netwoks_direction" target="_blank">
+                <img src="contactos/Instagram.png" alt="whatsApp">
+                <b>Instagram</b>
+            </a>
+            <a href="https://facebook.com/kevin.desarrollador.web/" class="netwoks_direction" target="_blank">
+                <img src="contactos/Facebook.png" alt="whatsApp">
+                <b>Facebook</b>
+            </a>
+        </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
