@@ -1,137 +1,970 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="logo/portafolio.png">
-    <title>KEVIN develope web</title>
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Kevin Valente | Frontend Developer</title>
+
+    <meta name="description"
+        content="Professional Frontend Developer Portfolio">
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Orbitron:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
+
+    <!-- ====================
+         CURSOR GLOW
+    ===================== -->
+
+    <div class="cursor"></div>
+
+    <!-- ====================
+         PARTICLES
+    ===================== -->
+
+    <div class="particles"></div>
+
+    <!-- ====================
+         SCROLL TOP
+    ===================== -->
+
+    <button class="scroll-top">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <!-- ====================
+         HEADER
+    ===================== -->
+
     <header class="header">
-        <div class="logo">
-            <h1>KEVIN DEVELOPER</h1>
-        </div>
-        <img src="logo/menu.png" alt="menu" class="menu">
-        <nav class="nav">
-            <ul class="nav_list">
-                <li class="item"><a href="#">opcion</a></li>
-                <li class="item"><a href="#">opcion</a></li>
-                <li class="item"><a href="#">opcion</a></li>
+
+        <div class="container nav">
+
+            <!-- LOGO -->
+
+            <a href="#home"
+                class="logo">
+
+                &lt;/Kevin&gt;
+
+            </a>
+
+            <!-- MENU -->
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skills">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projects">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+
             </ul>
-        </nav>
-    </header>
-    <main class="main">
-        <div class="container-sections">
-            <section class="section_specialties">
-                <div class="specialties-info">
-                    <h2>Me especialidad</h2>
-                    <div class="container_info">
-                        <p class="specialties">Soy un desarrollador web especialisodo en la interactividad del ususario <strong>UI</strong>, creo y doy estilos a paginas webs, con un codigo ordenado y limpio,trabajo principalmente con HTML, CSS y JavaScript, lo que me permite construir sitios web rápidos, responsivos y bien estructurados. Cuido mucho los detalles visuales como colores, tipografía, animaciones y disposición de elementos para lograr un diseño profesional. Mi objetivo es no solo hacer que un sitio se vea bien,  sino     que     también sea cómodo de usar y cumpla su  propósito:   atraer,   comunicar y convertir.</p>
-                        <div class="container_logo">
-                            <div class="logos logo-html oculto">
-                                <img src="logo/html-5.jfif" alt="html">
-                            </div>
-                            <div class="logos logo-css oculto">
-                                <img src="logo/css-3.png" alt="css">
-                            </div>
-                            <div class="logos logo-js oculto">
-                                <img src="logo/javaScript.png" alt="java" class="js">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="section_projects">
-                <h2>Mis proyectos</h2>
-                <div class="projects">
-                    <div class="container_project oculto">
-                        <div class="project-front">
-                            <div class="project-img">
-                                <img src="img-project/topCursos.png" alt="primer proyecto">
-                            </div>
-                            <div class="project-info">
-                                <span>Top Cusros</span>
-                                <p>Una plataforma diseñada para aprender desarrollo web desde cero. Aquí encontrarás cursos cuidadosamente seleccionados de HTML, CSS y JavaScript, organizados de forma práctica y fácil de seguir. Cada recomendación está pensada para ayudarte a avanzar paso a paso, desde los fundamentos hasta proyectos reales, permitiéndote desarrollar habilidades sólidas y aplicables en el mundo laboral.</p>
-                            </div>
-                        </div>
-                        <div class="project-back">
-                            <p>Esta página web fue creada con el objetivo de ayudar a personas que desean iniciarse en el desarrollo web. Muchas veces, quienes comienzan se sienten abrumados por la gran cantidad de cursos disponibles en internet y no saben por dónde empezar.</p>
-                            <p>La página fuen creada solo con <b>HTML Y CSS</b></p>
-                            <a href="https://valente-kevin.github.io/Mini-tinda/" target="_blank" class="view">ver</a>
-                        </div>
-                    </div>
-                    <div class="container_project oculto">
-                        <div class="project-front --project-2">
-                            <div class="project-img">
-                                <img src="img-project/Netflix.png" alt="primer proyecto">
-                            </div>
-                            <div class="project-info">
-                                <span>Netflix</span>
-                                <p>Este proyecto es una clonación de la interfaz de Netflix, desarrollada con el objetivo de practicar y mejorar mis habilidades en desarrollo front-end. La aplicación replica el diseño moderno y atractivo de la plataforma, incluyendo secciones como el banner principal</p>
-                            </div>
-                        </div>
-                        <div class="project-back">
-                            <p>Se implementó utilizando HTML, CSS y JavaScript, enfocándome en la estructura semántica, estilos responsivos. Este proyecto me permitió fortalecer mis conocimientos en diseño UI, maquetación y lógica básica de interacción, acercándome a la construcción de aplicaciones web más completas y profesionales.</p>
-                            <a href="https://valente-kevin.github.io/Netflix/" target="_blank" class="view">view</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
+            <!-- MENU BUTTON -->
+
+            <button class="menu-btn">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
         </div>
 
-        <section class="section_form">
-            <form action="https://usebasin.com/f/2e1b7d22ed72" method="post" class="form">
-                <div class="container_input">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre">
+    </header>
+
+    <!-- ====================
+         HERO SECTION
+    ===================== -->
+
+    <section
+        class="hero"
+        id="home">
+
+        <div class="hero-bg"></div>
+
+        <div class="container hero-container">
+
+            <div class="hero-content reveal">
+
+                <span class="hero-tag">
+
+                    Frontend Developer
+
+                </span>
+
+                <h1>
+
+                    Hi, I'm
+
+                    <span>
+                        Kevin Valente
+                    </span>
+
+                </h1>
+
+                <h2>
+
+                    Building Modern &
+                    Interactive Web Experiences
+
+                </h2>
+
+                <p>
+
+                    I create responsive,
+                    modern and high-performance
+                    websites using HTML, CSS,
+                    JavaScript and modern
+                    frontend development
+                    techniques.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects"
+                        class="btn">
+
+                        View Projects
+
+                    </a>
+
+                    <a href="#contact"
+                        class="btn btn-outline">
+
+                        Contact Me
+
+                    </a>
+
                 </div>
-                <div class="container_input">
-                    <label for="whatsApp">WhatsApp</label>
-                    <input type="tel" id="whatsApp" name="whatsAoo">
+
+                <!-- SOCIALS -->
+
+                <div class="hero-socials">
+
+                    <a href="#">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fab fa-linkedin"></i>
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fab fa-facebook"></i>
+
+                    </a>
+
                 </div>
-                <div class="container_input">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
+
+            </div>
+
+            <!-- IMAGE -->
+
+            <div
+                class="hero-image reveal">
+
+                <div class="image-box">
+
+                    <img
+                        src="img/profile.jpg"
+                        alt="Kevin Valente">
+
                 </div>
-                <div class="container_input">
-                    <label>Servicios</label>
-                    <select name="servicios">
-                        <option value="servicio" class="option">Elige el servicio que necesites</option>
-                        <option value="portfolio" class="option">Realizar desde cero un portafolio profecional</option>
-                        <option value="mantenimiento" class="option">Realizar los mantenimientos necesarios en un sitio web</option>
-                        <option value="negocio" class="option">Realizar una paguina web para negocio (totalmente personalizable)</option>
-                        <option value="otros" class="option">Otros</option>
-                    </select>
-                </div>
-                <div class="container_input">
-                    <label for="msg">Mensage</label>
-                    <textarea name="" id="msg" rows="4"></textarea>
-                </div>
-                <div class="container_input">
-                    <input type="submit" class="enviar">
-                </div>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <strong>©Kevin Valente</strong>
-        <div class="container_contact">
-            <a href="https://wa.me/593959238651" class="netwoks_direction" target="_blank">
-                <img src="contactos/whatsApp.png" alt="whatsApp">
-                <b>WhatsApp</b>
-            </a>
-            <a href="https://instagram.com/ele__vladi__mir" class="netwoks_direction" target="_blank">
-                <img src="contactos/Instagram.png" alt="whatsApp">
-                <b>Instagram</b>
-            </a>
-            <a href="https://facebook.com/kevin.desarrollador.web/" class="netwoks_direction" target="_blank">
-                <img src="contactos/Facebook.png" alt="whatsApp">
-                <b>Facebook</b>
-            </a>
+
+            </div>
+
         </div>
+
+    </section>
+
+    <!-- ====================
+         ABOUT
+    ===================== -->
+
+    <section
+        class="about section"
+        id="about">
+
+        <div class="container">
+
+            <div class="section-header reveal">
+
+                <span>
+
+                    Who I Am
+
+                </span>
+
+                <h2>
+
+                    About Me
+
+                </h2>
+
+            </div>
+
+            <div class="about-content">
+
+                <!-- IMAGE -->
+
+                <div
+                    class="about-image reveal">
+
+                    <img
+                        src="img/about.jpg"
+                        alt="About Kevin">
+
+                </div>
+
+                <!-- TEXT -->
+
+                <div
+                    class="about-text reveal">
+
+                    <h3>
+
+                        Frontend Developer
+                        Passionate About
+                        Creating Digital
+                        Experiences
+
+                    </h3>
+
+                    <p>
+
+                        I am a Frontend Developer
+                        specialized in HTML,
+                        CSS and JavaScript.
+
+                        I focus on creating
+                        modern, responsive and
+                        visually engaging websites
+                        that provide excellent
+                        user experiences.
+
+                    </p>
+
+                    <p>
+
+                        My goal is to transform
+                        ideas into professional,
+                        functional and attractive
+                        digital products.
+
+                    </p>
+
+                    <!-- STATS -->
+
+                    <div class="about-stats">
+
+                        <div
+                            class="stat-card">
+
+                            <h4
+                                class="counter"
+                                data-target="15">
+
+                                0
+
+                            </h4>
+
+                            <span>
+
+                                Projects
+
+                            </span>
+
+                        </div>
+
+                        <div
+                            class="stat-card">
+
+                            <h4
+                                class="counter"
+                                data-target="5">
+
+                                0
+
+                            </h4>
+
+                            <span>
+
+                                Technologies
+
+                            </span>
+
+                        </div>
+
+                        <div
+                            class="stat-card">
+
+                            <h4
+                                class="counter"
+                                data-target="100">
+
+                                0
+
+                            </h4>
+
+                            <span>
+
+                                Dedication
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+        <!-- ====================
+         SKILLS
+    ===================== -->
+
+    <section
+        class="skills section"
+        id="skills">
+
+        <div class="container">
+
+            <div class="section-header reveal">
+
+                <span>
+                    My Skills
+                </span>
+
+                <h2>
+                    Technologies
+                </h2>
+
+            </div>
+
+            <div class="skills-content">
+
+                <div class="skills-left reveal">
+
+                    <h3>
+                        Technologies I Work With
+                    </h3>
+
+                    <p>
+
+                        I build responsive,
+                        modern and optimized
+                        websites using the latest
+                        frontend technologies and
+                        best development practices.
+
+                    </p>
+
+                </div>
+
+                <div class="skills-right reveal">
+
+                    <!-- HTML -->
+
+                    <div class="skill">
+
+                        <div class="skill-info">
+
+                            <span>HTML5</span>
+
+                            <span>95%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div
+                                class="skill-progress html">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- CSS -->
+
+                    <div class="skill">
+
+                        <div class="skill-info">
+
+                            <span>CSS3</span>
+
+                            <span>90%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div
+                                class="skill-progress css">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- JS -->
+
+                    <div class="skill">
+
+                        <div class="skill-info">
+
+                            <span>JavaScript</span>
+
+                            <span>85%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div
+                                class="skill-progress js">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- RESPONSIVE -->
+
+                    <div class="skill">
+
+                        <div class="skill-info">
+
+                            <span>
+                                Responsive Design
+                            </span>
+
+                            <span>95%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div
+                                class="skill-progress responsive">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- GIT -->
+
+                    <div class="skill">
+
+                        <div class="skill-info">
+
+                            <span>Git</span>
+
+                            <span>80%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div
+                                class="skill-progress git">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- GITHUB -->
+
+                    <div class="skill">
+
+                        <div class="skill-info">
+
+                            <span>GitHub</span>
+
+                            <span>85%</span>
+
+                        </div>
+
+                        <div class="skill-bar">
+
+                            <div
+                                class="skill-progress github">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ====================
+         SERVICES
+    ===================== -->
+
+    <section
+        class="services section">
+
+        <div class="container">
+
+            <div class="section-header reveal">
+
+                <span>
+                    What I Do
+                </span>
+
+                <h2>
+                    Services
+                </h2>
+
+            </div>
+
+            <div class="services-grid">
+
+                <div class="service-card reveal">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <h3>
+                        Web Development
+                    </h3>
+
+                    <p>
+
+                        Modern and responsive
+                        websites built with
+                        clean code.
+
+                    </p>
+
+                </div>
+
+                <div class="service-card reveal">
+
+                    <i class="fa-solid fa-mobile-screen"></i>
+
+                    <h3>
+                        Responsive Design
+                    </h3>
+
+                    <p>
+
+                        Websites optimized for
+                        all screen sizes.
+
+                    </p>
+
+                </div>
+
+                <div class="service-card reveal">
+
+                    <i class="fa-solid fa-bolt"></i>
+
+                    <h3>
+                        Performance
+                    </h3>
+
+                    <p>
+
+                        Fast loading and optimized
+                        user experiences.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ====================
+         PROJECTS
+    ===================== -->
+
+    <section
+        class="projects section"
+        id="projects">
+
+        <div class="container">
+
+            <div class="section-header reveal">
+
+                <span>
+                    Portfolio
+                </span>
+
+                <h2>
+                    My Projects
+                </h2>
+
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- PROJECT 1 -->
+
+                <article
+                    class="project-card reveal">
+
+                    <div class="project-image">
+
+                        <img
+                            src="img/project1.jpg"
+                            alt="Project">
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Business Website
+                        </h3>
+
+                        <p>
+
+                            Modern corporate website
+                            with responsive design.
+
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- PROJECT 2 -->
+
+                <article
+                    class="project-card reveal">
+
+                    <div class="project-image">
+
+                        <img
+                            src="img/project2.jpg"
+                            alt="Project">
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Landing Page
+                        </h3>
+
+                        <p>
+
+                            Conversion-focused
+                            landing page.
+
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- PROJECT 3 -->
+
+                <article
+                    class="project-card reveal">
+
+                    <div class="project-image">
+
+                        <img
+                            src="img/project3.jpg"
+                            alt="Project">
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Portfolio Website
+                        </h3>
+
+                        <p>
+
+                            Personal portfolio
+                            with modern UI.
+
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- PROJECT 4 -->
+
+                <article
+                    class="project-card reveal">
+
+                    <div class="project-image">
+
+                        <img
+                            src="img/project4.jpg"
+                            alt="Project">
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Ecommerce UI
+                        </h3>
+
+                        <p>
+
+                            Online store interface
+                            design.
+
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ====================
+         CONTACT
+    ===================== -->
+
+    <section
+        class="contact section"
+        id="contact">
+
+        <div class="container">
+
+            <div class="section-header reveal">
+
+                <span>
+                    Contact
+                </span>
+
+                <h2>
+                    Let's Work Together
+                </h2>
+
+            </div>
+
+            <div class="contact-content">
+
+                <!-- INFO -->
+
+                <div
+                    class="contact-info reveal">
+
+                    <h3>
+
+                        Let's Build Something
+                        Amazing
+
+                    </h3>
+
+                    <p>
+
+                        Feel free to contact me
+                        for projects, collaborations
+                        or business opportunities.
+
+                    </p>
+
+                    <a
+                        href="https://wa.me/593959238651"
+                        target="_blank"
+                        class="contact-link">
+
+                        <i class="fab fa-whatsapp"></i>
+
+                        WhatsApp
+
+                    </a>
+
+                    <a
+                        href="mailto:valentevladimir@gmail.com"
+                        class="contact-link">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        Email
+
+                    </a>
+
+                </div>
+
+                <!-- FORM -->
+
+                <form
+                    class="contact-form reveal">
+
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                        required>
+
+                    <input
+                        type="email"
+                        placeholder="Your Email"
+                        required>
+
+                    <input
+                        type="text"
+                        placeholder="Subject">
+
+                    <textarea
+                        placeholder="Your Message"
+                        required>
+                    </textarea>
+
+                    <button
+                        type="submit"
+                        class="btn">
+
+                        Send Message
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ====================
+         FOOTER
+    ===================== -->
+
+    <footer
+        class="footer">
+
+        <div class="container">
+
+            <h3>
+
+                &lt;/Kevin&gt;
+
+            </h3>
+
+            <p>
+
+                Frontend Developer
+
+            </p>
+
+            <div class="footer-socials">
+
+                <a href="#">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+                <a href="#">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+                <a href="#">
+
+                    <i class="fab fa-facebook"></i>
+
+                </a>
+
+            </div>
+
+            <p class="copyright">
+
+                © <span class="year"></span>
+
+                Kevin Valente.
+                All Rights Reserved.
+
+            </p>
+
+        </div>
+
     </footer>
 
+    <!-- JS -->
+
     <script src="script.js"></script>
+
 </body>
 </html>
